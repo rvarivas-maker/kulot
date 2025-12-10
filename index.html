@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spot</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--  custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>SEBASTE </span>Tourist Spot</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+<!-- header section ends  -->
+
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your Email">
+        <input type="password" class="box" placeholder="Enter your Password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Anya's Burobanglid</h3>
+        <p>Farm Mountain Resort</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+
+<!-- home section ends  -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends  -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cottage </h3>
+                <p>Entrance : Adult - 60php kids - 40 php<br>Check in time: 2 pm-Check out time: 12 pm</p>
+                <div class="price"> -400php and 500php </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> aircon room rates </h3>
+                <div class="price"> -2100 queen bed for 2 person with breakfast</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> aircon room rates </h3>
+                <div class="price"> -2900 queen bed and single bed For 3 person with breakfast</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Aircon room rates </h3>
+                <div class="price"> -3500 queen bed and Double for 4 person with breakfast 
+
+                    950 glamping kubo for 2 with breakfast 
+                    450 extra bed with breakfast 
+                    200 excess person</div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends  -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+    
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Cottages And Air-Conditioned Rooms</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Night-Time View</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>To Those Who Love To Explore</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Let Yourself Enjoy And Blend With Nature</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Giant Birds' Nests</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>A Wishing Well</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Adventure with Friends</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Lodging and Cottages</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>anyas burobanglid</h3>
+                <p>Swimming Pool for Adults And Kids</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends  -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/1.jpg" alt="">
+                    <h3>Juhani Takala</h3>
+                    <p>Beautiful resort in a mountain surround. Two swimming pools and restaurant. Cottages for a rent and bamboo huts for eating own snacks .</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/2.jpg" alt="">
+                    <h3>khat alvarez</h3>
+                    <p>If you love nature and wants to experience a peaceful vacation while enjoying a beautiful scenery and a picture perfect moments, Come and visit Anya's Burobangled. And stay at Terrace By the bay in callan sebAste antique.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/8.png" alt="">
+                    <h3>bsoberano j</h3>
+                    <p>Need more improvement on entrance to avoid vehicle collisions and overlapping</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/7.png" alt="">
+                    <h3>popet Juin</h3>
+                    <p>Perfect for unwinding. No Mobile signals, Great scenery.☺️😌</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends  -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+
+</section>
+
+<!-- contact section ends  -->
+
+<!-- brand section  -->
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.svg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>about us</h3>
+            <p>Peacefulness and Adventure - This is what makes Anya's Burobanglid extra special. It is located at Brgy. Callan, Sebaste, Antique where you can enjoy different activities that they offer. Some of those activities are swimming, nature tripping and sight seeing. They have two swimming pools intended for kids and adults. To those who love to explore , you could also let yourself enjoy and blend with nature for they have giant birds' nests, spider web, a giant coconut, swings, and a wishing well. They also accept catering services and serve as a venue for some special events. If you'd love to stay overnight, the place also offers cottages and air-conditioned rooms. 
+                If you're fond of adventure, Anya's Burobanglid must be on your bucket list!</p>
+        </div>
+
+        <div class="box">
+            <h3>Resort Location</h3>
+            <a href="https://maps.app.goo.gl/os8v3GxzWVqA8dvq9">Callan, Sebaste, Antique</a>
+            <a>Landline: (036) 641 4793 </a>
+            <a>email: jislandchoice@yahoo.com</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>For More Info</h3>
+            <a href="https://www.facebook.com/anyas.burobangled/">facebook</a>
+            <a href="https://www.youtube.com/results?search_query=anyas+burobangled">youtube</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--members section starts  -->
+
+<section class="members">
+    
+    <h1 class="heading">
+        <span>m</span>
+        <span>e</span>
+        <span>m</span>
+        <span>b</span>
+        <span>e</span>
+        <span>r</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/i-1.jpeg" alt="">
+            <div class="content">
+                <h3>Sergs A. Macuja</h3>
+                <p>Co-Leader</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/pic5.jpeg" alt="">
+            <div class="content">
+                <h3>Mea Gwyn A. Alorro</h3>
+                <p>Leader</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic3.jpeg" alt="">
+            <div class="content">
+                <h3>Kurt Magabilin</h3>
+                <p>Member</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic4.jpeg" alt="">
+            <div class="content">
+                <h3>Jhona Mae Zona</h3>
+                <p>Member</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--members section starts  -->
+
+<section class="members">
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.jpeg" alt="">
+            <div class="content">
+                <h3>Ellen Antonio</h3>
+                <p>Member</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic2.jpeg" alt="">
+            <div class="content">
+                <h3>Jelly Maximo</h3>
+                <p>Member</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic6.jpeg" alt="">
+            <div class="content">
+                <h3>Jerald Antonio</h3>
+                <p>Member</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic7.jpg" alt="">
+            <div class="content">
+                <h3>Chard Jay R. Langote</h3>
+                <p>Member</p>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!--members section ends  -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
